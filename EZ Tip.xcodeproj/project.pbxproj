@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		621842FE1BCB005E00755AD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621842FD1BCB005E00755AD9 /* AppDelegate.swift */; };
+		621843001BCB005E00755AD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621842FF1BCB005E00755AD9 /* ViewController.swift */; };
+		621843031BCB005E00755AD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621843011BCB005E00755AD9 /* Main.storyboard */; };
+		621843051BCB005E00755AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621843041BCB005E00755AD9 /* Assets.xcassets */; };
+		621843081BCB005E00755AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621843061BCB005E00755AD9 /* LaunchScreen.storyboard */; };
+		621843131BCB005E00755AD9 /* EZ_TipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621843121BCB005E00755AD9 /* EZ_TipTests.swift */; };
+		6218431E1BCB005E00755AD9 /* EZ_TipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6218431D1BCB005E00755AD9 /* EZ_TipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6218430F1BCB005E00755AD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 621842F21BCB005D00755AD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 621842F91BCB005E00755AD9;
+			remoteInfo = "EZ Tip";
+		};
+		6218431A1BCB005E00755AD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 621842F21BCB005D00755AD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 621842F91BCB005E00755AD9;
+			remoteInfo = "EZ Tip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		621842FA1BCB005E00755AD9 /* EZ Tip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EZ Tip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		621842FD1BCB005E00755AD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		621842FF1BCB005E00755AD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		621843021BCB005E00755AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		621843041BCB005E00755AD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		621843071BCB005E00755AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		621843091BCB005E00755AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6218430E1BCB005E00755AD9 /* EZ TipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EZ TipTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		621843121BCB005E00755AD9 /* EZ_TipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZ_TipTests.swift; sourceTree = "<group>"; };
+		621843141BCB005E00755AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		621843191BCB005E00755AD9 /* EZ TipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EZ TipUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6218431D1BCB005E00755AD9 /* EZ_TipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZ_TipUITests.swift; sourceTree = "<group>"; };
+		6218431F1BCB005E00755AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		621842F71BCB005E00755AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6218430B1BCB005E00755AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621843161BCB005E00755AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		621842F11BCB005D00755AD9 = {
+			isa = PBXGroup;
+			children = (
+				621842FC1BCB005E00755AD9 /* EZ Tip */,
+				621843111BCB005E00755AD9 /* EZ TipTests */,
+				6218431C1BCB005E00755AD9 /* EZ TipUITests */,
+				621842FB1BCB005E00755AD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		621842FB1BCB005E00755AD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				621842FA1BCB005E00755AD9 /* EZ Tip.app */,
+				6218430E1BCB005E00755AD9 /* EZ TipTests.xctest */,
+				621843191BCB005E00755AD9 /* EZ TipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		621842FC1BCB005E00755AD9 /* EZ Tip */ = {
+			isa = PBXGroup;
+			children = (
+				621842FD1BCB005E00755AD9 /* AppDelegate.swift */,
+				621842FF1BCB005E00755AD9 /* ViewController.swift */,
+				621843011BCB005E00755AD9 /* Main.storyboard */,
+				621843041BCB005E00755AD9 /* Assets.xcassets */,
+				621843061BCB005E00755AD9 /* LaunchScreen.storyboard */,
+				621843091BCB005E00755AD9 /* Info.plist */,
+			);
+			path = "EZ Tip";
+			sourceTree = "<group>";
+		};
+		621843111BCB005E00755AD9 /* EZ TipTests */ = {
+			isa = PBXGroup;
+			children = (
+				621843121BCB005E00755AD9 /* EZ_TipTests.swift */,
+				621843141BCB005E00755AD9 /* Info.plist */,
+			);
+			path = "EZ TipTests";
+			sourceTree = "<group>";
+		};
+		6218431C1BCB005E00755AD9 /* EZ TipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6218431D1BCB005E00755AD9 /* EZ_TipUITests.swift */,
+				6218431F1BCB005E00755AD9 /* Info.plist */,
+			);
+			path = "EZ TipUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		621842F91BCB005E00755AD9 /* EZ Tip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621843221BCB005E00755AD9 /* Build configuration list for PBXNativeTarget "EZ Tip" */;
+			buildPhases = (
+				621842F61BCB005E00755AD9 /* Sources */,
+				621842F71BCB005E00755AD9 /* Frameworks */,
+				621842F81BCB005E00755AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EZ Tip";
+			productName = "EZ Tip";
+			productReference = 621842FA1BCB005E00755AD9 /* EZ Tip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6218430D1BCB005E00755AD9 /* EZ TipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621843251BCB005E00755AD9 /* Build configuration list for PBXNativeTarget "EZ TipTests" */;
+			buildPhases = (
+				6218430A1BCB005E00755AD9 /* Sources */,
+				6218430B1BCB005E00755AD9 /* Frameworks */,
+				6218430C1BCB005E00755AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				621843101BCB005E00755AD9 /* PBXTargetDependency */,
+			);
+			name = "EZ TipTests";
+			productName = "EZ TipTests";
+			productReference = 6218430E1BCB005E00755AD9 /* EZ TipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		621843181BCB005E00755AD9 /* EZ TipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621843281BCB005E00755AD9 /* Build configuration list for PBXNativeTarget "EZ TipUITests" */;
+			buildPhases = (
+				621843151BCB005E00755AD9 /* Sources */,
+				621843161BCB005E00755AD9 /* Frameworks */,
+				621843171BCB005E00755AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6218431B1BCB005E00755AD9 /* PBXTargetDependency */,
+			);
+			name = "EZ TipUITests";
+			productName = "EZ TipUITests";
+			productReference = 621843191BCB005E00755AD9 /* EZ TipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		621842F21BCB005D00755AD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Tim Rechin";
+				TargetAttributes = {
+					621842F91BCB005E00755AD9 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					6218430D1BCB005E00755AD9 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 621842F91BCB005E00755AD9;
+					};
+					621843181BCB005E00755AD9 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 621842F91BCB005E00755AD9;
+					};
+				};
+			};
+			buildConfigurationList = 621842F51BCB005E00755AD9 /* Build configuration list for PBXProject "EZ Tip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 621842F11BCB005D00755AD9;
+			productRefGroup = 621842FB1BCB005E00755AD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				621842F91BCB005E00755AD9 /* EZ Tip */,
+				6218430D1BCB005E00755AD9 /* EZ TipTests */,
+				621843181BCB005E00755AD9 /* EZ TipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		621842F81BCB005E00755AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621843081BCB005E00755AD9 /* LaunchScreen.storyboard in Resources */,
+				621843051BCB005E00755AD9 /* Assets.xcassets in Resources */,
+				621843031BCB005E00755AD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6218430C1BCB005E00755AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621843171BCB005E00755AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		621842F61BCB005E00755AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621843001BCB005E00755AD9 /* ViewController.swift in Sources */,
+				621842FE1BCB005E00755AD9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6218430A1BCB005E00755AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621843131BCB005E00755AD9 /* EZ_TipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621843151BCB005E00755AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6218431E1BCB005E00755AD9 /* EZ_TipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		621843101BCB005E00755AD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 621842F91BCB005E00755AD9 /* EZ Tip */;
+			targetProxy = 6218430F1BCB005E00755AD9 /* PBXContainerItemProxy */;
+		};
+		6218431B1BCB005E00755AD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 621842F91BCB005E00755AD9 /* EZ Tip */;
+			targetProxy = 6218431A1BCB005E00755AD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		621843011BCB005E00755AD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				621843021BCB005E00755AD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		621843061BCB005E00755AD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				621843071BCB005E00755AD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		621843201BCB005E00755AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		621843211BCB005E00755AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		621843231BCB005E00755AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "EZ Tip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "designgrappler.EZ-Tip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		621843241BCB005E00755AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "EZ Tip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "designgrappler.EZ-Tip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		621843261BCB005E00755AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "EZ TipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "designgrappler.EZ-TipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZ Tip.app/EZ Tip";
+			};
+			name = Debug;
+		};
+		621843271BCB005E00755AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "EZ TipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "designgrappler.EZ-TipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZ Tip.app/EZ Tip";
+			};
+			name = Release;
+		};
+		621843291BCB005E00755AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "EZ TipUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "designgrappler.EZ-TipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "EZ Tip";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6218432A1BCB005E00755AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "EZ TipUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "designgrappler.EZ-TipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "EZ Tip";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		621842F51BCB005E00755AD9 /* Build configuration list for PBXProject "EZ Tip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621843201BCB005E00755AD9 /* Debug */,
+				621843211BCB005E00755AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		621843221BCB005E00755AD9 /* Build configuration list for PBXNativeTarget "EZ Tip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621843231BCB005E00755AD9 /* Debug */,
+				621843241BCB005E00755AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		621843251BCB005E00755AD9 /* Build configuration list for PBXNativeTarget "EZ TipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621843261BCB005E00755AD9 /* Debug */,
+				621843271BCB005E00755AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		621843281BCB005E00755AD9 /* Build configuration list for PBXNativeTarget "EZ TipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621843291BCB005E00755AD9 /* Debug */,
+				6218432A1BCB005E00755AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 621842F21BCB005D00755AD9 /* Project object */;
+}
