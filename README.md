@@ -13,6 +13,6 @@ Completed user stories:
 Notes:
 Treehouse courses were informative but the video walkthrough was great. Some content issues with the course and video because of Swift 2.0. Actually searched the web for the answer to converting a string to a double.
 
-ez-tip-demo.gif
+![Demo walkthrough](https://raw.githubusercontent.com/designgrappler/EZ-Tip/master/ez-tip-demo.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
