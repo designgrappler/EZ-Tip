@@ -1,6 +1,6 @@
 # EZ-Tip
 
-This is an iOS demo app for the Swift for Designers course @ Facebook.
+This is an iOS demo app for the iOS for Designers course @ Facebook.
 
 Time spent: 10 hours spent in total
 
@@ -11,7 +11,7 @@ Completed user stories:
  Required: User can view total bill total amount (bill amount + tip)
 
 Notes:
-Treehouse courses were informative but the video walkthrough was great. Some content issues with the course and video because of Swift 2.0. Actually searched the web for the answer to converting a string to a double.
+Treehouse courses were informative but the video walkthrough was great. Some content issues with the course and video because of Swift 2.0. Actually searched the web for the answer to converting a string to a double. #cantreademails
 
 ![Demo walkthrough](https://raw.githubusercontent.com/designgrappler/EZ-Tip/master/ez-tip-demo.gif)
 
